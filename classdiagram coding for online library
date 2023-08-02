@@ -1,0 +1,449 @@
+                             BOOKS CODING
+
+
+#ifndef BOOKS_H
+#define BOOKS_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class books
+  * 
+  */
+
+class books
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  books ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~books ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void addnewbooks ()
+  {
+  }
+
+
+  /**
+   */
+  void deletebooks ()
+  {
+  }
+
+
+  /**
+   */
+  void displaybookdetails ()
+  {
+  }
+
+
+  /**
+   */
+  void enquirybooks ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  int bookid_;
+  string bookname;
+  string bookauthor;
+  float price;
+  string status;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of bookid_
+   * @param new_var the new value of bookid_
+   */
+  void setBookid_ (int new_var)   {
+      bookid_ = new_var;
+  }
+
+  /**
+   * Get the value of bookid_
+   * @return the value of bookid_
+   */
+  int getBookid_ ()   {
+    return bookid_;
+  }
+
+  /**
+   * Set the value of bookname
+   * @param new_var the new value of bookname
+   */
+  void setBookname (string new_var)   {
+      bookname = new_var;
+  }
+
+  /**
+   * Get the value of bookname
+   * @return the value of bookname
+   */
+  string getBookname ()   {
+    return bookname;
+  }
+
+  /**
+   * Set the value of bookauthor
+   * @param new_var the new value of bookauthor
+   */
+  void setBookauthor (string new_var)   {
+      bookauthor = new_var;
+  }
+
+  /**
+   * Get the value of bookauthor
+   * @return the value of bookauthor
+   */
+  string getBookauthor ()   {
+    return bookauthor;
+  }
+
+  /**
+   * Set the value of price
+   * @param new_var the new value of price
+   */
+  void setPrice (float new_var)   {
+      price = new_var;
+  }
+
+  /**
+   * Get the value of price
+   * @return the value of price
+   */
+  float getPrice ()   {
+    return price;
+  }
+
+  /**
+   * Set the value of status
+   * @param new_var the new value of status
+   */
+  void setStatus (string new_var)   {
+      status = new_var;
+  }
+
+  /**
+   * Get the value of status
+   * @return the value of status
+   */
+  string getStatus ()   {
+    return status;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // BOOKS_H
+
+
+             
+
+                 LIBRARIAN  CODING
+
+#ifndef LIBRARIAN_H
+#define LIBRARIAN_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class librarian
+  * 
+  */
+
+class librarian
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  librarian ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~librarian ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void searchbook ()
+  {
+  }
+
+
+  /**
+   */
+  void verifymember ()
+  {
+  }
+
+
+  /**
+   */
+  void orderbooks ()
+  {
+  }
+
+
+  /**
+   */
+  void sellbooks ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  int id;
+  string name;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of id
+   * @param new_var the new value of id
+   */
+  void setId (int new_var)   {
+      id = new_var;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  int getId ()   {
+    return id;
+  }
+
+  /**
+   * Set the value of name
+   * @param new_var the new value of name
+   */
+  void setName (string new_var)   {
+      name = new_var;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  string getName ()   {
+    return name;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // LIBRARIAN_H
+
+
+
+                                PUBLISHER CODING
+
+
+#include "publisher.h"
+
+// Constructors/Destructors
+//  
+
+publisher::publisher () {
+initAttributes();
+}
+
+publisher::~publisher () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void publisher::initAttributes () {
+}
+
+
+
+
+                                      USER CODING
+
+#include "user.h"
+
+// Constructors/Destructors
+//  
+
+user::user () {
+initAttributes();
+}
+
+user::~user () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void user::initAttributes () {
+}
+
